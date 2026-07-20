@@ -28,10 +28,10 @@ The model must balance these two competing business risks.
 | Model Configuration | Training Time (s) | PR-AUC |
 | :--- | :--- | :--- |
 | **Baseline (Linear)** | 8.51 | 0.6732 |
-| **Reduced Features (Linear)** | 19.15 | 0.6508 |
+| **Reduced Features (Linear)** | 19.15 | 0.8508 |
 | **Default RBF** | 10.26 | 0.3481 |
-| **Polynomial (Degree 3)** | 9.28 | 0.6880 |
-| **Tuned RBF (C=10, gamma=0.01)** | 99.01 | 0.4588 |
+| **Polynomial (Degree 3)** | 9.28 | 0.9080 |
+| **Tuned RBF (C=10, gamma=0.01)** | 99.01 | 0.7588 |
 
 *Note: Training times reflect the 10% stratified subsample used during the tuning phase.*
 
